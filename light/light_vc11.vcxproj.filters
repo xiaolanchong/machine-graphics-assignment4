@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="res">
+      <UniqueIdentifier>{9eb6162b-87f0-4a1d-858d-429006aee791}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\light.ico">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="res\lightDoc.ico">
+      <Filter>res</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\light.rc2">
+      <Filter>res</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="light.rc">
+      <Filter>res</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="light.cpp" />
+    <ClCompile Include="lightDoc.cpp" />
+    <ClCompile Include="lightView.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="Point3D.cpp" />
+    <ClCompile Include="Screen.cpp" />
+    <ClCompile Include="Segment.cpp" />
+    <ClCompile Include="StdAfx.cpp" />
+    <ClCompile Include="templ.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="light.h" />
+    <ClInclude Include="lightDoc.h" />
+    <ClInclude Include="lightView.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="Point3D.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Screen.h" />
+    <ClInclude Include="Segment.h" />
+    <ClInclude Include="StdAfx.h" />
+    <ClInclude Include="templ.h" />
+  </ItemGroup>
+</Project>
